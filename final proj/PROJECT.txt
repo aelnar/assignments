@@ -1,0 +1,26 @@
+
+=== OVERVIEW ===
+This project takes the lyrics from Red Velvet’s singles and showcases the “red”, “velvet”, and “red velvet” concepts through the use of a Bible visualization which will then be analyzed to see how many “red”, “velvet”, and “red velvet” songs crossover with songs from the same or different concepts.
+
+=== PROJECT LINK ===
+https://public.tableau.com/app/profile/allyza.e/viz/RVFINAL/Vis
+
+=== HOW TO INTERACT WITH VIS ===
+- Hovering over the bars will show a tooltip that has the song that bars and the arcs connected to it are tied to, the number of “red”, “velvet”, and “red velvet” crossovers that song has, and what the concept the colored bar represents.
+- Clicking on the bar will highlight the arcs tied to the song, as well as make the name of that song appear on the bottom of the visualization.
+- Each arc on the visualization will highlight based on its start song.
+- When hovering over the arc, a tooltip will appear with the arc’s start song to end song, the start song and end song’s concept, and the lyrics for that crossover.
+
+=== SUMMARY ===
+This project is based off of Robert’s version of the Bible visualization. Here, crossovers of Red Velvet’s “red”, “velvet”, and “red velvet” title tracks were found by looking at their lyrics and topics found in their songs. This results in a Bible visualization that showcases the relevant and interesting crossovers between their songs, coupled with the count of crossovers a song has for each concept. 
+
+Data was collected by myself and filtered to come down to 78 crossovers that are shown in the visualization. This data was then transported to a Google Sheets spreadsheet specifically formatted for Tableau to be able to process that information and to create the final picture. The resulting Tableau visualization uses three “sheets” — one for the arcs, one for the bar graph, and one for the names that show up at the bottom — and one “dashboard” that is the final visualization.
+
+The resulting visualization concludes that Red Velvet’s songs typically crossover with the same concepts, so “red” songs have more crossovers with “red” songs, etc.
+
+=== REFERENCES ===
+1. Harrison, Chris. “Bible Cross-References”. https://www.chrisharrison.net/index.php/Visualizations/BibleViz
+2. Robert. “Remaking An Influential Cross Reference Visualization”, April 2015. https://viz.bible/cms/remaking-influential-cross-reference-visualization/
+3. colorcodedlyrics.com. https://colorcodedlyrics.com/
+4. Tableau Public. https://public.tableau.com/s/
+5. Hoang, Toan. “Arc Chart Tutorial”. May 30, 2018. https://tableau.toanhoang.com/arc-chart-tutorial/
